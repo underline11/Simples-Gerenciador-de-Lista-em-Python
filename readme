@@ -1,0 +1,55 @@
+Desenvolva um programa em Python que permita ao usuário adicionar elementos a uma lista e exibir o resultado final.
+# Simples Gerenciador de Lista em Python
+
+Este projeto demonstra um exemplo básico de como gerenciar uma lista em Python. A aplicação permite que o usuário adicione um elemento a uma lista através da entrada no console e exibe a lista atualizada.
+
+## Funcionalidades
+
+- **Adicionar Elemento:** O usuário pode adicionar um elemento à lista.
+- **Exibição da Lista:** A lista atualizada é exibida após a adição de um novo elemento.
+
+## Como Executar
+
+1. **Clone o repositório:**
+    
+    git clone https://github.com/seu-usuario/simples-gerenciador-de-lista.git
+    ```
+2. **Navegue até o diretório do projeto:**
+    
+    cd simples-gerenciador-de-lista
+    ```
+3. **Execute o script:**
+    
+    python gerenciador_de_lista.py
+    ```
+
+4. **Digite um elemento para adicionar à lista** e pressione Enter. O script exibirá a lista atualizada.
+
+## Exemplo de Uso
+
+
+Digite um elemento a ser adicionado à lista: maçã
+Lista após adição do elemento: ['maçã']
+gerenciador_de_lista.py: Script principal que contém a lógica do programa.
+Python 3.x
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um issue ou enviar um pull request.
+Este projeto está licenciado sob a MIT License.
+
+### .gitignore
+
+```plaintext
+# Ignorar arquivos de log e caches
+*.log
+*.cache
+
+# Ignorar arquivos compilados pelo Python
+*.pyc
+__pycache__/
+
+# Ignorar ambientes virtuais
+venv/
+.env/
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
